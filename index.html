@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+DK+Loopet:wght@100..400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="fRow">
+            <div class="structure">
+                <img class="img" src="images/hangman-0.svg" height="320px">
+
+                <h3 class="HUNGMAN-GAME">HUNGMAN GAME</h3>
+            </div>
+        </div>
+
+        <div class="sRow">
+            <div class="game-box">
+                <div class="inputs">
+                    <ol class="placeHolders">
+                        <li class="letter l1"></li>
+                        <li class="letter l2"></li>
+                        <li class="letter l3"></li>
+                        <li class="letter l4"></li>
+                        <li class="letter l5"></li>
+                        <li class="letter l6"></li>
+                        <li class="letter l7"></li>
+                        <li class="letter l8"></li>
+                    </ol>
+                </div>
+                Hint:
+                <b>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</b>
+                <p class="iG">Incorrect Guess: 0 / 6</p>
+                
+                <div class="keybordKeys">
+                    <div class="buttons">
+                        <div>
+                            <button class="A">A</button>
+                            <button class="B">B</button>
+                            <button class="C">C</button>
+                            <button class="D">D</button>
+                            <button class="E">E</button>
+                            <button class="F">F</button>
+                            <button class="G">G</button>
+                            <button class="H">H</button>
+                            <button class="I">I</button><br>
+                            <button class="J">J</button>
+                            <button class="K">K</button>
+                            <button class="L">L</button>
+                            <button class="M">M</button>
+                            <button class="N">N</button>
+                            <button class="O">O</button>
+                            <button class="P">P</button>
+                            <button class="Q">Q</button>
+                            <button class="R">R</button><br>
+                            <button class="S">S</button>
+                            <button class="T">T</button>
+                            <button class="U">U</button>
+                            <button class="V">V</button>
+                            <button class="W">W</button>
+                            <button class="X">X</button>
+                            <button class="Y">Y</button>
+                            <button class="Z">Z</button>
+                        </div>
+                    </div>    
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="modal" id="modal1">
+        <div class="modalHeader">
+            <h1>WINNER</h1>
+            <buttton class="closeButton">&times;</buttton>
+        </div>
+
+        <div class="modalBody">
+            <img class="gif" src="./images/Trending GIF happy yeah yay happiness joy spongebob patrick spongebob squarepants hooray spongebobsquarepants happy gif.gif" height="100px">
+            <p><span style="color: black;">YOU HAVE WON BUT AT WHAT COST</span></p>
+        </div>
+    </div>
+
+    <div class="modal" id="modal2">
+        <div class="modalHeader">
+            <h1>LOSER</h1>
+            <buttton class="closeButton">&times;</buttton>
+        </div>
+
+        <div class="modalBody">
+            <img class="gif" src="./images/Screenshot 2024-08-13 181207.png" height="100px">
+            <p><span style="color: black;">Huh,a useless human who can even Guess one word</span></p>
+        </div>
+    </div>
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+    <script src="index.js"></script>    
+</body>
+</html>
